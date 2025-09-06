@@ -1,0 +1,31 @@
+---Technologies Used---
+Programming Language: Java
+Concepts: Loops, Conditional Statements, Random Number Generation, Scanner Class for Input
+---Game Rules---
+Player gets 2 rounds to play.
+Each round → computer randomly picks a number (1–100).
+Player has maximum 5 attempts to guess.
+Points System:
+1–2 attempts → 10 points
+3–4 attempts → 7 points
+5 attempts → 5 points
+Fail to guess → 2 points
+-----Code Flow Explanation-----
+Welcome Message & Rules
+The program displays instructions and the scoring system.
+Round Handling:: using (for loop)
+Game runs for rounds = 2.
+Each round, a new random number is generated.
+Guess Input::using (while loop)
+Player gets 5 attempts.
+Input is validated (must be between 1–100).
+Hint System
+If guess < number → "Too Low"
+If guess > number → "Too High"
+If guess = number → Success message + score calculation
+---Score Calculation--
+Points awarded based on attempts taken.
+If player fails in all 5 attempts → 2 points only.
+Final Result
+At the end of 2 rounds → Final score is displayed.
+             -----------------------
