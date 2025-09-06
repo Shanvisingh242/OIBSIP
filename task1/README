@@ -1,0 +1,13 @@
+# FEATUERS
+1. Login System:
+Validates login ID and password with specific rules (length, characters, uppercase, digits, special characters).
+2. Reservation Module:
+User can reserve tickets by entering passenger details, train number, class type, and journey details.
+Generates a PNR number for each reservation. Store reservation details in memory using a HashMap.
+3. Cancellation Module:
+User can cancel an existing reservation by entering the PNR number.
+Confirmation required before cancellation.
+# MENU-DRIVEN
+1.Reservation
+2.Cancellation
+3.Exit
